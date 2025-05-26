@@ -1,6 +1,59 @@
 body{
-  font: 1.2em "Lucida Handwriting", cursive;
+  font-family: "didot", serif;
   text-align: center;
-  font-size:2vw;
-  padding:0px;
+  font-size:5vw;
+  margin:0px;
+  margin-left:calc(49vw - min(calc(49.5vh * 9 / 16), 45vw));
+}
+#container{
+  overflow-y:auto;
+}
+.joke{
+  height: 60vh;
+  width: min(calc(99vh * 9 / 16), 90vw);
+  font-size:4vh;
+  color: black;
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  border-width:10px;
+  border-color:brown;
+  border-style:double;
+}
+.title{
+  height: 8vh;
+  width: min(calc(99vh * 9 / 16), 90vw);
+  font-family: "Impact", fantasy;
+  font-size:6vh;
+  background-color:cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  border-width:10px;
+  border-color:brown;
+  border-style:double;
+  position:fixed;
+}
+.invistitle{
+  height: 8vh;
+  width: min(calc(99vh * 9 / 16), 90vw);
+  font-size:6vh;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  color:white;
+  border-width:10px;
+  border-color:white;
+  border-style:double;
+}
+.button{
+  width: 10vh;
+  height: 5vh;
+  font-size:2vh;
+  margin:1vh
 }
