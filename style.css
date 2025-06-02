@@ -5,13 +5,22 @@ body{
   margin:0px;
   margin-left:calc(49vw - min(calc(49.5vh * 9 / 16), 45vw));
 }
+a{
+  font-size:2vh;
+  font-family: system-ui;
+  margin-left:10vh;
+  background-color:white;
+}
+p{
+  margin:10px;
+}
 #container{
   overflow-y:auto;
 }
 .joke{
-  height: 60vh;
+  height: 70vh;
   width: min(calc(99vh * 9 / 16), 90vw);
-  font-size:4vh;
+  font-size:3vh;
   color: black;
   background-color: lightyellow;
   display: flex;
@@ -21,9 +30,14 @@ body{
   border-width:10px;
   border-color:brown;
   border-style:double;
+  font-weight:bold;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-word;     /* Fallback-safe */
+  overflow-wrap: break-word;
 }
 .title{
-  height: 8vh;
+  height: 10vh;
   width: min(calc(99vh * 9 / 16), 90vw);
   font-family: "Impact", fantasy;
   font-size:6vh;
@@ -38,7 +52,7 @@ body{
   position:fixed;
 }
 .invistitle{
-  height: 8vh;
+  height: 10vh;
   width: min(calc(99vh * 9 / 16), 90vw);
   font-size:6vh;
   background-color:white;
@@ -56,4 +70,21 @@ body{
   height: 5vh;
   font-size:2vh;
   margin:1vh
+}
+.textbox1{
+  width: 40vh;
+  height: 8vh;
+  font-size:1.5vh;
+  margin:1vh
+}
+.textbox2{
+  width: 40vh;
+  height: 2vh;
+  font-size:1.5vh;
+  margin:1vh
+}
+.buttonDiv{
+  font-family: system-ui;
+  font-weight:normal;
+  font-size: 3vh;
 }
